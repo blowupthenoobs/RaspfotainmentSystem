@@ -31,12 +31,12 @@ Honestly, they way it works is rather simple. Once you get it set up, all you ha
 
 ## CAD Models
 ### Individualized Parts
-I'll be adding the things here later
+- [RaspPi Case](https://eventuallyPut)
+- [Speaker Case](https://placeholder)
+- [Electronics Container](https://placeholder)
+- [Connecting Pieces](https://placeholder)
 ### Linkable Parts
-- [RaspPi Case](https://linkhere)
-- [Speaker Case](https://linkhere)
-- [Electronics Container](https://linkhere)
-- [Connecting Pieces](https://linkhere)
+- https://www.thingiverse.com/thing:737250
 
 ## Wiring Diagram
 <img width="839" height="711" alt="RaspInfotainmentWiring" src="https://github.com/user-attachments/assets/30aff679-3739-416b-9cf8-d529f5dc13e6" />
