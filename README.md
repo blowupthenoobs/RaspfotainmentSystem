@@ -1,6 +1,6 @@
 # RaspfotainmentSystem
 
-A portable infotainment system running off a 2gb rasp pi that pairs with your phone to tap into their built-in infotainment system. Idealized for cars that turn off all the electrical components immediately when the car turns off. This was created after I'd been lent a car without any sort of screen or anything, and not wanting to change any parts with the car I wanted to make a portable device that could run carplay. It was designed with using OpenAuto's free edition, however as long as it can run the shutdown code, any other infotainment software should work exactly the same on the pi. Admittedly, most of the work is spent on making the delayed turn off system, but that's the part that keeps the raspberry pi from getting damaged or corrupted from abrupt shutdowns.
+A portable infotainment system running off a 2gb rasp pi that pairs with your phone to tap into their built-in infotainment system. Idealized for cars that turn off all the electrical components immediately when the car turns off. This was created after I'd been lent a car without any sort of screen or anything, and not wanting to change any parts with the car I wanted to make a portable device that could run carplay. It was designed with using [OpenAuto's free edition](https://github.com/f1xpl/openauto), however as long as it can run the shutdown code, any other infotainment software should work exactly the same on the pi. Admittedly, most of the work is spent on making the delayed turn off system, but that's the part that keeps the raspberry pi from getting damaged or corrupted from abrupt shutdowns.
 
 <img width="1309" height="1070" alt="Screenshot 2026-06-20 122216" src="https://github.com/user-attachments/assets/db98eb08-920c-4e8d-a330-b9b89fec53ad" />
 
@@ -62,4 +62,9 @@ Honestly, they way it works is rather simple. Once you get it set up, all you ha
 17. Place the speaker inside the case
 18. Apply the covering mesh to the speaker case
 
+# Credits
+A lot of the design was inspired by https://github.com/soubhik-khan/RPI_delayed_Shutdown however it seems that they integrated their circuit into the car, which I did not want to do (hence the wildly different wiring diagram.) I was originally only going to reference their python script, however after looking through it I realized that it was basically the exact thing I would've had to write so it's admittedly basically only their code but with some minor tweaks. (I'm glad I don't have to figure out how to use python though, I'm still running from that inevitable fate, lol.)
 
+
+##### Disclaimer
+###### As far as my hack club submission goes, I was intending on building this irl, however I was unable to get all the parts in before the deadline, so most of the stuff is untested other than parts of the circuitry and the raspberry pi case which has been tweaked to a basically perfect fit.
