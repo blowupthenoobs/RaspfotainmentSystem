@@ -31,7 +31,7 @@ Honestly, they way it works is rather simple. Once you get it set up, all you ha
 | Wireless Phone Connector (optional unless using IOS on free version of OpenAuto) | https://www.aliexpress.us/item/3256809934129098.html?spm=a2g0o.order_list.order_list_main.41.25f01802ugS0kN&gatewayAdapt=glo2usa | 1 | $29.49 | $29.49 |
 | Zipties | https://www.homedepot.com/p/Commercial-Electric-8in-Standard-50lb-Tensile-Strength-UL-21S-Rated-Cable-Zip-Ties-100-Pack-UV-Black-GT-200STCB/203531910 | 9 | $0.12 | $12.46 |
 | M2 nuts and bolts | https://www.homedepot.com/p/Prime-Line-M2-0-4-x-8-mm-Grade-A2-70-Stainless-Steel-Phillips-Drive-Flat-Head-Metric-Machine-Screws-10-Pack-9120618/311229766 | 24 | $0.54 | $5.43 x 3 |
-| Wires | [Link](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTL3BHR?tag=bingshoppinga-20&linkCode=df0&hvadid=80470717339063&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=103304&hvtargid=pla-4584070205420867&psc=1&hvocijid=15639618107126028530-B0BRTL3BHR-&hvexpln=0) | 24 | $0.11 | $4.59 |
+| Wires | [Link](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTL3BHR?tag=bingshoppinga-20&linkCode=df0&hvadid=80470717339063&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=103304&hvtargid=pla-4584070205420867&psc=1&hvocijid=15639618107126028530-B0BRTL3BHR-&hvexpln=0) | -- | $0.11 | $4.59 |
 | USBc Cables | https://www.aliexpress.us/item/3256808184974434.html?spm=a2g0o.order_list.order_list_main.69.25f01802bj1ZPU&gatewayAdapt=glo2usa | 2 | $3.15 | $3.15 x 2 |
 | Total Cost | --- | - | --- | $213.65 |
 
