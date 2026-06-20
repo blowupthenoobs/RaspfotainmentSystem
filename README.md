@@ -1,11 +1,15 @@
 # RaspfotainmentSystem
 
-A portable infotainment system running off a 2gb rasp pi that pairs with your phone to tap into their built-in infotainment system. Idealized for cars that turn off all the electrical components immediately when the car turns off. This was created after I'd been lent a car without any sort of screen or anything, and not wanting to change any parts with the car I wanted to make a portable device that could run carplay. It was designed with using [OpenAuto's free edition](https://github.com/f1xpl/openauto), however as long as it can run the shutdown code, any other infotainment software should work exactly the same on the pi. Admittedly, most of the work is spent on making the delayed turn off system, but that's the part that keeps the raspberry pi from getting damaged or corrupted from abrupt shutdowns.
+A portable infotainment system running off a 2gb rasp pi that pairs with your phone to tap into their built-in infotainment system. Idealized for cars that turn off all the electrical components immediately when the car turns off. This was created after I'd been lent a car without any sort of screen or anything, and not wanting to change any parts with the car I wanted to make a portable device that could run carplay. It was designed with using [OpenAuto's free edition](https://github.com/f1xpl/openauto), however as long as it can run the shutdown code, any other infotainment software should work exactly the same on the pi. Admittedly, most of the work is spent on making the delayed turn off system, but that's the part that keeps the raspberry pi from getting damaged or corrupted from abrupt shutdowns. It was also specially designed to work with USB ports to make its usage as simple as possible.
 
 <img width="1309" height="1070" alt="Screenshot 2026-06-20 122216" src="https://github.com/user-attachments/assets/db98eb08-920c-4e8d-a330-b9b89fec53ad" />
 
 # How does it Operate?
 Honestly, they way it works is rather simple. Once you get it set up, all you have to do is turn on your car and the pi will turn on with it. Turning off your car will start the shutdown initiative to turn off the pi and sustain its power for just a bit longer so that the abrupt shutdown doesn't destroy the device or the SD card.
+
+
+<img width="2250" height="3450" alt="fallout_zine" src="https://github.com/user-attachments/assets/de5dab89-1610-428d-b1de-226817303fcc" />
+
 
 ## Components List:
 
@@ -28,6 +32,10 @@ Honestly, they way it works is rather simple. Once you get it set up, all you ha
 | Zipties | https://www.homedepot.com/p/Commercial-Electric-8in-Standard-50lb-Tensile-Strength-UL-21S-Rated-Cable-Zip-Ties-100-Pack-UV-Black-GT-200STCB/203531910 | 9 | $0.12 | $12.46 |
 | M2 nuts and bolts | https://www.homedepot.com/p/Prime-Line-M2-0-4-x-8-mm-Grade-A2-70-Stainless-Steel-Phillips-Drive-Flat-Head-Metric-Machine-Screws-10-Pack-9120618/311229766 | 24 | $0.54 | $5.43 x 3 |
 | Wires | [Link](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTL3BHR?tag=bingshoppinga-20&linkCode=df0&hvadid=80470717339063&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=103304&hvtargid=pla-4584070205420867&psc=1&hvocijid=15639618107126028530-B0BRTL3BHR-&hvexpln=0) | 24 | $0.11 | $4.59 |
+| USBc Cables | https://www.aliexpress.us/item/3256808184974434.html?spm=a2g0o.order_list.order_list_main.69.25f01802bj1ZPU&gatewayAdapt=glo2usa | 2 | $3.15 | $3.15 x 2 |
+| Total Cost | --- | - | --- | $213.65 |
+
+- I will note that AliExpress tends to hold a lot of that stuff on discount, so if you were to build this, your total is likely not going to reach that high
 
 ## CAD Models
 ### Individualized Parts
@@ -36,7 +44,7 @@ Honestly, they way it works is rather simple. Once you get it set up, all you ha
 - [Electronics Container](https://placeholder)
 - [Connecting Pieces](https://placeholder)
 ### Linkable Parts
-- https://www.thingiverse.com/thing:737250
+- https://www.thingiverse.com/thing:737250 (I will publish as soon as it will let me, lol. It's also in the repo rn tho.)
 
 ## Wiring Diagram
 <img width="839" height="711" alt="RaspInfotainmentWiring" src="https://github.com/user-attachments/assets/30aff679-3739-416b-9cf8-d529f5dc13e6" />
@@ -67,4 +75,4 @@ A lot of the design was inspired by https://github.com/soubhik-khan/RPI_delayed_
 
 
 ##### Disclaimer
-###### As far as my hack club submission goes, I was intending on building this irl, however I was unable to get all the parts in before the deadline, so most of the stuff is untested other than parts of the circuitry and the raspberry pi case which has been tweaked to a basically perfect fit.
+###### As far as my hack club submission goes, I was intending on building this irl, however I was unable to get all the parts in before the deadline, so most of the stuff is untested other than parts of the circuitry and the raspberry pi case which has been tweaked to a basically perfect fit.     I initially had much bigger plans for this like creating flipper zero integration to control the media, but ran out of time :(
