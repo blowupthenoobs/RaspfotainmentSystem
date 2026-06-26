@@ -45,6 +45,10 @@ Honestly, they way it works is rather simple. Once you get it set up, all you ha
 - [Connecting Pieces](https://placeholder)
 ### Linkable Parts
 - https://www.thingiverse.com/thing:737250 (I will publish as soon as it will let me, lol. It's also in the repo rn tho.)
+### Link to onshape
+- https://cad.onshape.com/documents/705d1cd4cf1ba2c09ead5c1c/w/6040b207acc108290085115e/e/351f9d0b74c128e9d29832c8?renderMode=0&uiState=6a3dfe459dfe257ccaee1d84
+###### (tbh, if it wasn't a requirement, I probably would not have made the cad thing, it was easily most singlehandedly the most painful part of my submission. Blender is easily the superior CAD software here)
+
 
 ## Wiring Diagram
 <img width="839" height="711" alt="RaspInfotainmentWiring" src="https://github.com/user-attachments/assets/30aff679-3739-416b-9cf8-d529f5dc13e6" />
