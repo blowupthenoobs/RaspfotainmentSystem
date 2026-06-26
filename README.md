@@ -2,13 +2,15 @@
 
 A portable infotainment system running off a 2gb rasp pi that pairs with your phone to tap into their built-in infotainment system. Idealized for cars that turn off all the electrical components immediately when the car turns off. This was created after I'd been lent a car without any sort of screen or anything, and not wanting to change any parts with the car I wanted to make a portable device that could run carplay. It was designed with using [OpenAuto's free edition](https://github.com/f1xpl/openauto), however as long as it can run the shutdown code, any other infotainment software should work exactly the same on the pi. Admittedly, most of the work is spent on making the delayed turn off system, but that's the part that keeps the raspberry pi from getting damaged or corrupted from abrupt shutdowns. It was also specially designed to work with USB ports to make its usage as simple as possible.
 
-<img width="1309" height="1070" alt="Screenshot 2026-06-20 122216" src="https://github.com/user-attachments/assets/db98eb08-920c-4e8d-a330-b9b89fec53ad" />
+<!-- <img width="1309" height="1070" alt="Screenshot 2026-06-20 122216" src="https://github.com/user-attachments/assets/db98eb08-920c-4e8d-a330-b9b89fec53ad" /> -->
+<img width="1403" height="1206" alt="Screenshot 2026-06-20 134345" src="https://github.com/user-attachments/assets/395eda2f-10e3-4f03-95cf-d6c5fe1e9545" />
+
 
 # How does it Operate?
 Honestly, they way it works is rather simple. Once you get it set up, all you have to do is turn on your car and the pi will turn on with it. Turning off your car will start the shutdown initiative to turn off the pi and sustain its power for just a bit longer so that the abrupt shutdown doesn't destroy the device or the SD card.
 
 
-<img width="2250" height="3450" alt="fallout_zine" src="https://github.com/user-attachments/assets/de5dab89-1610-428d-b1de-226817303fcc" />
+<img width="2250" height="3450" alt="fallout_zine_update" src="https://github.com/user-attachments/assets/2cdf3506-3b14-41c2-9cea-e1ec6f2d0a50" />
 
 
 ## Components List:
@@ -60,7 +62,7 @@ Honestly, they way it works is rather simple. Once you get it set up, all you ha
 3. Hold the K1 button till P-XX (x being some number) and use the K2 button to switch the left number to 4 and K3/K4 to get the second number to say 2
 4. Press the K1 button again and set the timer to the desired delay (15 seconds should be good) using K2/K3 to move the number up/down and K4 to move the decimal
 5. Press K1 again to save your changes
-6. On the bottom half of the electronics container, place the USB charger, JD1912, and time relay as shown. JD1912 will be held in place when the top part comes in, but the time relay has holes for M2 type nuts and bolts. The USB charger should be held down by a ziptie through the holes next to it.
+6. On the bottom half of the electronics container, place the USB charger, JD1912, voltage amplifier, and time relay as shown. JD1912 will be held in place when the top part comes in, but the time relay and voltage amp have holes for M2 type nuts and bolts. The USB charger should be held down by a ziptie through the holes next to it.
 7. On the upper half of the electronics container, place the USBc interface and LiPo pouch as shown. Several holes are provided for zipties to hold down the LiPo pouch, however the USBc interface is intended with use of an adhesive.
 8. If intending on linking all the modules, the next step is to screw in the connecting pieces with M2 nuts and bolts
 9. Finish all the wiring according to the diagram above. Any parts not mentioned earlier do not have a designated location and should be safe to be left floating inside the case. The connections to the raspberry pi's GPIO pins should lead outside the case through the bigger hole on the top part of the case.
